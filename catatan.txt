@@ -1,0 +1,18 @@
+-----------------------------------------------------------
+ CATATAN PENGGUNAAN ALAT-ALAT DI SISTEM OPERASI KALI LINUX
+-----------------------------------------------------------
+
+1. fcrackzip
+   fcrackzip adalah sebuah perangkat lunak baris perintah yang 
+   digunakan untuk melakukan serangan brute force terhadap file
+   ZIP yang terenkripsi dengan kata sandi. 
+
+   Penggunaan:
+   $ fcrackzip -v -u -D -p <_wordlist_> <_file_zip_>
+
+   Keterangan:
+   -v : Mode verbose (menampilkan detail lebih banyak).
+   -u : Menyebabkan fcrackzip mengabaikan karakter yang tidak valid dalam kata sandi.
+   -D : Menggunakan wordlist (daftar kata sandi).
+   -p : Memasukkan jalur ke daftar kata sandi yang akan digunakan.
+   
